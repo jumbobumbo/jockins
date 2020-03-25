@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  jenkins:
+    container_name: "jenkings_instance"
+    image: 'jenko'
+    ports:
+      - '82:8080'
+      - '50000:50000'
+    volumes:
+      - "./jenkins_data:/var/jenkins_home"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    restart: always
+    
