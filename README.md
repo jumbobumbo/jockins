@@ -1,4 +1,3 @@
-# Jockins
 # Jenkins and Docker sitting in a tree
 # C O N T A I N E R I S I N G
 
